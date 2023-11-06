@@ -1,0 +1,86 @@
+/* src/components/UserRecommendations.css */
+.user-recommendations {
+    padding: 20px;
+    background-color: #f3f3f3;
+    border-radius: 10px;
+    margin: 10px;
+    animation: fadeIn 1s; /* Add a fade-in animation */
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .user-recommendations h2 {
+    font-family: 'Comic Sans MS', cursive; 
+    color: #000; 
+  }
+  
+  .reviews {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .review {
+    display: flex;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    width: 300px;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 4px #888;
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .user-avatar {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #ff66b2; /* Avatars in an attractive color */
+  }
+  
+  .user-icon {
+    font-size: 24px;
+    color: #ff66b2; /* User icons in an attractive color */
+  }
+  
+  .user-name {
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .review-rating {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+  }
+  
+  /* .star {
+    color: #FFD700; 
+    font-size: 20px;
+  } */
+
+  .star {
+    font-size: 20px;
+    color: #aaa; 
+  }
+  
+  .filled {
+    color: #FFD700; /* Filled star color (e.g., gold) */
+  }
+  
+  
+  .review-text {
+    font-family: 'Arial', sans-serif;
+    margin-top: 10px;
+  }
+  

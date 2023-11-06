@@ -1,0 +1,46 @@
+/* src/components/AboutUs.css */
+.about-us {
+    background-color: #f3f3f3; 
+    color: #000; 
+    padding: 180px;
+    margin: 20px;
+    text-align: center;
+    border-radius: 10px;
+    animation: fadeInUp 1s; 
+    box-shadow: 0 0 0 0 #000;
+  }
+  
+  .about-title {
+    font-family: 'Comic Sans MS', cursive; /* Playful font */
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .about-description {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  .about-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .icon {
+    margin: 0 20px;
+  }
+  
+  .icon-logo {
+    font-size: 40px;
+    color: #ff66b2; /* Attractive color for icons */
+  }
+  
+  .icon-description {
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  

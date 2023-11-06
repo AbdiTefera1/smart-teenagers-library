@@ -1,0 +1,7 @@
+.line_container{
+    padding: 20px;
+}
+.line {
+    background-color:#ff66b2;
+    border: 1px solid #ff66b2;
+}

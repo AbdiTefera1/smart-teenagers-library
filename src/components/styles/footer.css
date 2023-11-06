@@ -1,0 +1,50 @@
+/* src/components/Footer.css */
+.footer {
+    background-color: #ff66b2; /* Vibrant background color */
+    color: #fff; /* Text color */
+    padding: 20px;
+    text-align: center;
+    animation: slideUp 1s; /* Add a slide-up animation */
+    /* position: relative;
+    bottom: 0; */
+  }
+  
+  @keyframes slideUp {
+    from {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .footer-links a {
+    font-family: 'Comic Sans MS', cursive; /* Fun font for teenagers */
+    color: #fff;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 16px;
+  }
+  
+  .social-media h3 {
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .social-icon {
+    font-size: 30px;
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  

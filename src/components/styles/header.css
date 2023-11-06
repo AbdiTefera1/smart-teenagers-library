@@ -1,0 +1,48 @@
+/* Header.css */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ff66b2; 
+    /* background-color: #ff5733;  */
+    padding: 10px 20px;
+    color: #fff; 
+    font-family: 'Comic Sans MS', cursive; 
+    position: relative;
+    overflow: hidden;
+    padding: 0 50px;
+  }
+  
+  .header__logo {
+    display: flex;
+    align-items: center;
+    font-size: 40px; 
+  }
+  
+  .header__logo img {
+    width: 40px; /* Adjust the size of the logo image */
+    margin-right: 10px;
+  }
+  
+  .header__nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    font-size: 25px;
+  }
+  
+  .header__nav li {
+    margin-right: 20px;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #fff; /* Link text color */
+    transition: color 0.3s ease; /* Add color transition on hover */
+  }
+  
+  .nav-link:hover {
+    color: #ccc; /* Link text color on hover */
+  }
+  

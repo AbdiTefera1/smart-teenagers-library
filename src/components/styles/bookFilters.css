@@ -1,0 +1,46 @@
+/* src/components/BookFilters.css */
+.book-filters {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .filter-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    color: #333;
+    transition: color 0.2s;
+  }
+  
+  .filter-button.active {
+    color: #ff66b2;
+  }
+  
+  .sort-dropdown {
+    display: flex;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .sort-dropdown select {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #333;
+    cursor: pointer;
+  }
+  
+  /* Add more styles for animation and design */
+  

@@ -1,0 +1,46 @@
+.featured-item {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 2px 2px 4px #888;
+  transition: transform 0.2s;
+}
+
+.featured-item:hover {
+  transform: scale(1.05);
+}
+
+.featured-item img {
+  max-width: 100%;
+  height: auto;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.featured-info {
+  padding: 20px;
+}
+
+.featured-info h3 {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+.featured-info p {
+  font-family: 'Arial', sans-serif;
+  color: #777;
+}
+
+.learn-more-button {
+  background-color: #ff66b2;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.learn-more-button:hover {
+  background-color: #ff3385;
+}  

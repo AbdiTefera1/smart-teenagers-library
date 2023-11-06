@@ -1,0 +1,54 @@
+/* src/components/EngagingFeature.css */
+.engaging-feature {
+    background-color: #62a6e2; /* Vibrant blue background */
+    color: #fff; /* White text color */
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    animation: fadeInUp 1s; /* Add a fade-in animation */
+  }
+  
+  .feature-title {
+    font-family: 'Comic Sans MS', cursive; /* Playful font */
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .feature-description {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  .action-button {
+    margin-top: 20px;
+  }
+  
+  .explore-link {
+    background-color: #ff5e62; /* Attractive color for buttons */
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+  }
+  
+  .explore-link:hover {
+    background-color: #ff3a3e; /* Hover color effect */
+  }
+  
+  .play-icon {
+    font-size: 24px;
+    margin-left: 10px;
+  }
+  
+  .star-ratings {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  
+  .star {
+    color: #FFD700; /* Gold color for stars */
+  }
+  
